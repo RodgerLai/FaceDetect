@@ -51,6 +51,7 @@ def detectFaceByBaiduAI(token, image):
                 print("性别：" + decodeGender(face['gender']['type']) + " 可信度：" + str(face['emotion']['probability']), end=' ')
                 print(";  表情：" + decodeEmotion(face['emotion']['type']) + " 可信度：" + str(face['emotion']['probability']), end=' ')
                 print(' ')
+                index = index + 1
         else:
             print("人脸识别失败：" + res['error_msg'])
 
