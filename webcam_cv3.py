@@ -30,7 +30,7 @@ def detectFaceByBaiduAI(token, image):
     request_url = "https://aip.baidubce.com/rest/2.0/face/v3/detect"
     ## face_field 去除 landmark landmark72 landmark150
     data = {"image": image, "image_type": "BASE64",
-            "face_field": "age,beauty,expression,face_shape,gender,glasses,landmark72,landmark150,race,quality,eye_status,emotion,face_type"}
+            "face_field": "age,beauty,expression,face_shape,gender,glasses,race,quality,eye_status,emotion,face_type"}
     request_url = request_url + "?access_token=" + token
     request = urllib.request.Request(url=request_url, data=urllib.parse.urlencode(data).encode(encoding='UTF8'))
     request.add_header('Content-Type', 'application/json')
