@@ -16,4 +16,4 @@
 
 ## 运行
 
-![image](https://github.com/RodgerLai/FaceDetect/doc/console.jpg)
+![image](https://github.com/RodgerLai/FaceDetect/blob/master/doc/console.jpg)
