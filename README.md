@@ -14,3 +14,6 @@
 ## 后续计划
  - 待续
 
+## 运行
+
+![image](https://github.com/RodgerLai/FaceDetect/doc/console.jpg)
