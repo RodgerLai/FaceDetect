@@ -16,7 +16,8 @@
 
 ## 运行
 
-![image](https://github.com/RodgerLai/FaceDetect/blob/master/doc/console.jpg)
+ ![image](https://github.com/RodgerLai/FaceDetect/blob/master/doc/console.jpg)
+- 百度API支持分析七种表情: angry:愤怒 disgust:厌恶 fear:恐惧 happy:高兴 sad:伤心 surprise:惊讶 neutral:无情绪
 
 ## 参考
 - 百度AI人脸检测: http://ai.baidu.com/docs#/Face-Detect-V3/top
