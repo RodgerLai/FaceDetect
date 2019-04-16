@@ -17,3 +17,6 @@
 ## 运行
 
 ![image](https://github.com/RodgerLai/FaceDetect/blob/master/doc/console.jpg)
+
+## 参考
+- 百度AI人脸检测: http://ai.baidu.com/docs#/Face-Detect-V3/top
