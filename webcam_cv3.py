@@ -48,7 +48,7 @@ def detectFaceByBaiduAI(token, image):
             index = 1
             for face in face_list:
                 print("识别第【" + str(index) + "】个人=>", end=' ')
-                print("性别：" + decodeGender(face['gender']['type']) + " 可信度：" + str(face['emotion']['probability']), end=' ')
+                print("性别：" + decodeGender(face['gender']['type']) + " 可信度：" + str(face['gender']['probability']), end=' ')
                 print(";  表情：" + decodeEmotion(face['emotion']['type']) + " 可信度：" + str(face['emotion']['probability']), end=' ')
                 print(' ')
                 index = index + 1
